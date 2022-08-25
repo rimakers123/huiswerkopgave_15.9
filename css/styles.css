@@ -1,0 +1,99 @@
+html{
+  background-color: olivedrab;
+}
+
+body{
+  background-color: BlanchedAlmond;
+  max-width: 760px;
+  height: 100%;
+  margin: 0 auto;
+  border-left: 1px grey solid;
+  border-right: 1px grey solid;
+}
+
+header{
+  padding: 5px;
+  height: 70px;
+  min-width: 320px;
+  background-color: orange;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-family: cursive;
+  font-weight:bolder;
+  font-size: 18px;
+}
+
+ul li a:hover{
+  color: orange;
+  background-color: black;
+  border-radius: 10px;
+  }
+
+img{
+  border-radius: 20px;
+}
+
+figure{
+  text-align: center;
+}
+
+figcaption{
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  border: 1px solid lightgreen;
+  background-color: seashell;
+  font-size: 14px;
+}
+
+footer{
+  height: 100px;
+  color: white;
+  background-color: darkblue;
+}
+
+.introductie{
+  background-color: Ivory;
+  width: 480px;
+  min-width: 320px;
+  padding: 10px;
+  line-height: 1.4;
+  margin:auto;
+}
+
+footer p{
+  padding-left: 10px;
+}
+
+table{
+  min-width: 600px;
+  background-color: ghostwhite;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 80px;
+}
+
+.kopje-werkervaring, .kopje-opleidingen{
+  font-weight: bold;
+}
+
+textarea{
+  width: 400px;
+  height: 140px;
+}
+
+input[type="text"], input[type="email"], input[type="button"], textarea, label{
+  margin-left: 180px;
+}
