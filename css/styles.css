@@ -9,6 +9,7 @@ body{
   margin: 0 auto;
   border-left: 1px grey solid;
   border-right: 1px grey solid;
+  padding: 10px;
 }
 
 header{
@@ -62,6 +63,7 @@ footer{
   height: 100px;
   color: white;
   background-color: darkblue;
+  padding: 5px;
 }
 
 .introductie{
